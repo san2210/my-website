@@ -1,27 +1,36 @@
-<!-- Save this as index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Test Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Website</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #f0f0f0;
-      text-align: center;
-      padding-top: 50px;
+      background-color: #f2f2f2;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
     }
     h1 {
       color: #333;
+      font-size: 2rem;
+      margin-top: 20px;
     }
-    p {
-      color: #666;
+    img {
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
   </style>
 </head>
 <body>
-  <h1>Hello from GitHub Pages!</h1>
-  <p>If you're seeing this, your upload worked! ðŸŽ‰</p>
+  <img src="my-photo.jpg" alt="My Photo" />
+  <h1>If you're seeing this, your upload worked! 🎉</h1>
 </body>
 </html>
